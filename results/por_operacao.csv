@@ -1,0 +1,25 @@
+scenario,profile,users,operation,requisicoes,tempo_medio_ms,p95_ms,falhas_pct,distribuicao_pct
+A,escrita,30,POST /owners,2574.1,28.641000000000002,52.6,0.0,40.0
+A,escrita,30,GET /owners,1286.8,21.196,38.6,0.0,20.0
+A,escrita,30,GET /owners/{id},1286.8,12.925999999999998,23.4,0.0,20.0
+A,escrita,30,GET /vets,1286.8,13.453,24.3,0.0,20.0
+A,leitura,30,GET /owners,3077.6,18.086,32.8,0.0,45.0
+A,leitura,30,GET /owners/{id},2393.7,11.001,19.9,0.0,35.0
+A,leitura,30,GET /vets,1025.5,12.291,22.1,0.0,15.0
+A,leitura,30,POST /owners,341.5,23.874000000000002,43.6,0.0,5.0
+B,escrita,80,POST /owners,6286.2,75.35900000000001,176.6,0.0,40.0
+B,escrita,80,GET /owners,3142.8,55.396,129.7,0.0,20.0
+B,escrita,80,GET /owners/{id},3142.8,34.351,80.2,0.0,20.0
+B,escrita,80,GET /vets,3142.8,35.946,84.0,0.0,20.0
+B,leitura,80,GET /owners,8004.4,49.723,116.3,0.0,45.0
+B,leitura,80,GET /owners/{id},6225.7,30.157,70.2,0.0,35.0
+B,leitura,80,GET /vets,2667.9,33.159,77.5,0.0,15.0
+B,leitura,80,POST /owners,888.9,64.115,150.1,0.0,5.0
+C,escrita,150,POST /owners,9381.5,277.7,860.3,0.49791011610435626,40.0
+C,escrita,150,GET /owners,4690.6,205.13600000000002,635.5,0.27933777025534806,20.0
+C,escrita,150,GET /owners/{id},4690.6,100.089,309.8,0.27933777025534806,20.0
+C,escrita,150,GET /vets,4690.6,104.91099999999999,324.9,0.27933777025534806,20.0
+C,leitura,150,GET /owners,12106.8,183.217,567.6,0.04376915289884346,45.0
+C,leitura,150,GET /owners/{id},9416.3,87.877,272.0,0.042446382283188325,35.0
+C,leitura,150,GET /vets,4035.3,98.449,304.6,0.03468908499637691,15.0
+C,leitura,150,POST /owners,1344.6,239.03000000000003,740.5,0.0,5.0

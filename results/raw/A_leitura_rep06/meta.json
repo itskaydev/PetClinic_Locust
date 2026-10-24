@@ -1,0 +1,10 @@
+{
+  "scenario": "A",
+  "profile": "leitura",
+  "rep": 6,
+  "users": 30,
+  "warmup": 60,
+  "duration": 360,
+  "host": "http://localhost:8080",
+  "start": "2026-10-22T16:17:00"
+}

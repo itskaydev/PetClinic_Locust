@@ -1,0 +1,10 @@
+{
+  "scenario": "C",
+  "profile": "escrita",
+  "rep": 7,
+  "users": 150,
+  "warmup": 60,
+  "duration": 360,
+  "host": "http://localhost:8080",
+  "start": "2026-10-22T17:26:00"
+}
